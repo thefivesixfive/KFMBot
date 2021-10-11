@@ -3,7 +3,7 @@
 
 # Imports
 import logging
-from os import getenv
+from os import error, getenv
 from discord import Client
 from dotenv import load_dotenv
 
@@ -29,25 +29,27 @@ async def on_ready():
 async def on_message(ctx):
     # Split CTX into respect variables
     author = ctx.author
-    message = ctx.content
+    message = ctx.content.split(" ")
+    first_word = message[0]
     channel = ctx.channel
     # Check if self
     if author == kfm.user:
         return
-    # Check prefixes
-    prefixes = prefix.get_prefix("CONFIG")
-    score = 2
-    for stored_prefix in prefixes:
-        # Get prefix based on length of stored data
-        message_prefix = message[0:len(stored_prefix)]
-        if not prefix.check_prefix("CONFIG", message_prefix):
-            # Remove likelyhood
-            score -= 1
-    # check to see if both prefixes failed
-    if not score:
-        log(0, "s", "preifx not recognized")
+    # Check prefix
+    command = prefix.check("CONFIG", first_word)
+    if command == first_word:
         return
+    # Basic help command
+    if command == "help":
+        # Return message
+        await channel.send("Help is W.I.P!")
     # Find which command it is
+    if command == "prefix":
+        # Attempt to set prefix
+        status = prefix.set_prefix("CONFIG", message[1])
+        # Return message
+        await channel.send(status)
+    
 
 # Trigger Bot
 if __name__ == "__main__":

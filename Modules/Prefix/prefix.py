@@ -15,14 +15,21 @@ def get_prefix(config_path):
     return (current_prefix, static_prefix)
 
 # check prefix to see if it matches
-def check_prefix(config_path, prefix):
+def check(config_path, command):
     # Read prefixes
     prefixes = get_prefix(config_path)
-    # Checks
-    if prefix in prefixes:
-        return True
-    else:
-        return False
+    for prefix in prefixes:
+        # check for prefix using splice
+        prefix_length = len(prefix)
+        if command[0:prefix_length] == prefix:
+            print(prefix)
+            # Log success
+            log(1, "s", "prefix " + prefix + " found in " + command)
+            # return command without prefix
+            return command[prefix_length:]
+    # will only run if both prefixes failed
+    log(0, "s", "prefix not found in " + command)
+    return command
 
 # Set prefix
 def set_prefix(config_path, new_prefix):
@@ -32,16 +39,17 @@ def set_prefix(config_path, new_prefix):
     # Check if new prefix is static prefix
     if new_prefix == prefixes[1]:
         log(0, "s", "cannot change dynamic prefix to static")
-        return "static_conflict"
+        return "That's already the fallback prefix!"
     # check if new prefix is
     elif new_prefix == prefixes[0]:
         log(0, "s", "dynamic prefix already set to given value")
-        return "dynamic_conflict"
+        return "That's already the current prefix!"
     # check if prefix is too long
     elif len(new_prefix) > 3:
         log(0, "s", "new prefix too long")
-        return "length_oversized"
+        return "That prefix is too long!"
     # otherwise, good to go
     else:
         io_out(getcwd() + "\\" + config_path + "\\prefix.kfmconfig", new_prefix)
         log(1, "s", "updated dynamic prefix to " + new_prefix)
+        return "The prefix has been changed to " + new_prefix
