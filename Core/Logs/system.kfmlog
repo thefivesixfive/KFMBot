@@ -1,0 +1,432 @@
+[-] 10 Oct 21, 22:35:45 Test #3 of logging
+[-] 10 Oct 21, 22:35:46 Test #3 of logging
+[-] 10 Oct 21, 22:35:47 Test #3 of logging
+[+] 10 Oct 21, 22:58:21 Retrieved TOKEN from .env
+[+] 10 Oct 21, 22:58:50 Retrieved TOKEN from .env
+[+] 10 Oct 21, 22:59:11 Retrieved TOKEN from .env
+[+] 10 Oct 21, 23:00:16 Retrieved TOKEN from .env
+[+] 11 Oct 21, 00:45:23 Retrieved TOKEN from .env
+[+] 11 Oct 21, 00:45:40 Retrieved TOKEN from .env
+[+] 11 Oct 21, 00:45:40 bot started
+[+] 11 Oct 21, 00:45:43 bot connect
+[+] 11 Oct 21, 01:56:47 Retrieved TOKEN from .env
+[+] 11 Oct 21, 01:56:47 RUN
+[+] 11 Oct 21, 01:56:50 CONNECT
+[+] 11 Oct 21, 01:57:46 Retrieved TOKEN from .env
+[+] 11 Oct 21, 01:57:46 RUN
+[+] 11 Oct 21, 01:57:49 CONNECT
+[+] 11 Oct 21, 01:58:18 Retrieved TOKEN from .env
+[+] 11 Oct 21, 01:58:18 RUN
+[+] 11 Oct 21, 01:58:21 CONNECT
+[+] 11 Oct 21, 01:58:48 Retrieved TOKEN from .env
+[+] 11 Oct 21, 01:58:48 RUN
+[+] 11 Oct 21, 01:58:50 CONNECT
+[+] 11 Oct 21, 14:36:04 Retrieved TOKEN from .env
+[+] 11 Oct 21, 14:36:04 run
+[+] 11 Oct 21, 14:36:07 connect
+[+] 11 Oct 21, 14:36:52 Retrieved TOKEN from .env
+[+] 11 Oct 21, 14:36:52 run
+[+] 11 Oct 21, 14:36:54 connect
+[+] 11 Oct 21, 14:37:10 Retrieved TOKEN from .env
+[+] 11 Oct 21, 14:37:10 run
+[+] 11 Oct 21, 14:37:13 connect
+[+] 11 Oct 21, 14:37:52 got .env TOKEN
+[+] 11 Oct 21, 14:37:52 run
+[+] 11 Oct 21, 14:37:54 connect
+[+] 11 Oct 21, 14:49:59 got .env TOKEN
+[+] 11 Oct 21, 14:49:59 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\Config\prefix.kfmconfig
+[+] 11 Oct 21, 14:49:59 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\Config\prefix.kfmconfig
+[+] 11 Oct 21, 14:49:59 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\Config\prefix.kfmstatic
+[+] 11 Oct 21, 14:49:59 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\Config\prefix.kfmstatic
+[+] 11 Oct 21, 14:49:59 run
+[+] 11 Oct 21, 14:50:02 connect
+[+] 11 Oct 21, 15:02:32 got .env TOKEN
+[+] 11 Oct 21, 15:02:32 received request to change prefix
+[+] 11 Oct 21, 15:02:32 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:02:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:02:32 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:02:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:02:32 cannot change dynamic prefix to static
+[+] 11 Oct 21, 15:02:32 received request to change prefix
+[+] 11 Oct 21, 15:02:32 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:02:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:02:32 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:02:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:02:32 dynamic prefix already set to given value
+[+] 11 Oct 21, 15:03:12 got .env TOKEN
+[+] 11 Oct 21, 15:03:12 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:12 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:12 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:12 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:12 received request to change prefix
+[+] 11 Oct 21, 15:03:12 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:12 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:12 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:12 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:03:12 cannot change dynamic prefix to static
+[+] 11 Oct 21, 15:03:12 received request to change prefix
+[+] 11 Oct 21, 15:03:12 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:12 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:12 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:12 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:03:12 dynamic prefix already set to given value
+[+] 11 Oct 21, 15:03:42 got .env TOKEN
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 received request to change prefix
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:03:42 cannot change dynamic prefix to static
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 received request to change prefix
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:03:42 dynamic prefix already set to given value
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 received request to change prefix
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:03:42 new prefix too long
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 received request to change prefix
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 write request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 write to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 updated dynamic prefix to >
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:03:42 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:03:42 run
+[+] 11 Oct 21, 15:03:45 connect
+[+] 11 Oct 21, 15:06:15 got .env TOKEN
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 received request to change prefix
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:06:15 cannot change dynamic prefix to static
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 received request to change prefix
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 write request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 write to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 updated dynamic prefix to 
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 received request to change prefix
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:06:15 new prefix too long
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 received request to change prefix
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 write request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 write to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 updated dynamic prefix to >
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:06:15 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:06:15 run
+[+] 11 Oct 21, 15:06:18 connect
+[+] 11 Oct 21, 15:07:53 got .env TOKEN
+[+] 11 Oct 21, 15:08:02 got .env TOKEN
+[+] 11 Oct 21, 15:08:02 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:08:02 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:08:02 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:08:02 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:08:02 run
+[+] 11 Oct 21, 15:08:04 connect
+[+] 11 Oct 21, 15:08:10 got .env TOKEN
+[+] 11 Oct 21, 15:08:10 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:08:10 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:08:10 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:08:10 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:08:10 run
+[+] 11 Oct 21, 15:08:13 connect
+[+] 11 Oct 21, 15:08:16 got .env TOKEN
+[+] 11 Oct 21, 15:08:16 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:08:16 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:08:16 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:08:16 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:08:16 run
+[+] 11 Oct 21, 15:08:19 connect
+[+] 11 Oct 21, 15:11:07 got .env TOKEN
+[+] 11 Oct 21, 15:11:07 run
+[+] 11 Oct 21, 15:11:10 connect
+[+] 11 Oct 21, 15:11:26 got .env TOKEN
+[+] 11 Oct 21, 15:11:26 run
+[+] 11 Oct 21, 15:11:29 connect
+[+] 11 Oct 21, 15:11:30 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:11:30 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:11:30 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:11:30 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:11:43 got .env TOKEN
+[+] 11 Oct 21, 15:11:43 run
+[+] 11 Oct 21, 15:11:45 connect
+[+] 11 Oct 21, 15:11:46 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:11:46 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:11:46 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:11:46 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:11:48 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:11:48 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:11:48 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:11:48 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:12:20 got .env TOKEN
+[+] 11 Oct 21, 15:12:20 run
+[+] 11 Oct 21, 15:12:23 connect
+[+] 11 Oct 21, 15:12:24 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:12:24 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:12:24 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:12:24 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:10 got .env TOKEN
+[+] 11 Oct 21, 15:13:10 run
+[+] 11 Oct 21, 15:13:12 connect
+[+] 11 Oct 21, 15:13:13 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:13 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:13 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:13 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:13 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:13 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:13 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:13 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:14 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:19 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:19 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:19 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:19 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:19 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:19 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:19 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:19 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:19 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:19 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:19 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:19 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:19 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:19 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:19 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:19 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:20 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:22 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:22 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:22 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:22 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:22 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:22 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:13:22 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:13:22 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:43 got .env TOKEN
+[+] 11 Oct 21, 15:14:43 run
+[+] 11 Oct 21, 15:14:46 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:46 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:46 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:46 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:46 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:46 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:46 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:46 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:46 connect
+[+] 11 Oct 21, 15:14:48 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:48 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:48 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:48 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:48 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:48 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:48 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:48 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:50 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:50 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:50 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:50 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:50 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:50 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:14:50 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:14:50 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:15:23 got .env TOKEN
+[+] 11 Oct 21, 15:15:23 run
+[+] 11 Oct 21, 15:15:26 connect
+[+] 11 Oct 21, 15:15:27 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:15:27 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:15:27 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:15:27 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:15:27 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:15:27 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:15:27 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:15:27 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:15:29 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:15:29 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:15:29 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:15:29 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:15:29 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:15:29 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:15:29 read request to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:15:29 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:15:55 got .env TOKEN
+[+] 11 Oct 21, 15:15:55 run
+[+] 11 Oct 21, 15:15:58 connect
+[+] 11 Oct 21, 15:16:20 got .env TOKEN
+[+] 11 Oct 21, 15:16:20 run
+[+] 11 Oct 21, 15:16:23 connect
+[+] 11 Oct 21, 15:16:24 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:16:24 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:16:24 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:16:24 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:16:58 got .env TOKEN
+[+] 11 Oct 21, 15:16:58 run
+[+] 11 Oct 21, 15:17:00 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:00 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:17:00 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:00 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:17:00 preifx not recognized
+[+] 11 Oct 21, 15:17:00 connect
+[+] 11 Oct 21, 15:17:13 got .env TOKEN
+[+] 11 Oct 21, 15:17:13 run
+[+] 11 Oct 21, 15:17:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:17:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:17:15 preifx not recognized
+[+] 11 Oct 21, 15:17:15 connect
+[+] 11 Oct 21, 15:17:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:17:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:17:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:17:37 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:37 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:17:37 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:37 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:17:37 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:37 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:17:38 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:38 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:17:38 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:17:38 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:17:38 preifx not recognized
+[+] 11 Oct 21, 15:18:46 got .env TOKEN
+[+] 11 Oct 21, 15:18:46 run
+[+] 11 Oct 21, 15:18:49 connect
+[+] 11 Oct 21, 15:18:49 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:18:49 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:18:49 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:18:49 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:18:49 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:18:49 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:18:51 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:18:51 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:18:51 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:18:51 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:18:51 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:18:51 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:18:54 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:18:54 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:18:54 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:18:54 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 11 Oct 21, 15:18:54 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 11 Oct 21, 15:18:54 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 11 Oct 21, 15:18:54 preifx not recognized
