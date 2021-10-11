@@ -2,17 +2,22 @@
 #
 
 # Imports
-import logging
+from dashboard import deploy
 from os import error, getenv
 from discord import Client
-from dotenv import load_dotenv
 
 from Core.Logger import log
 from Modules.Prefix import prefix
 # from Modules.Prefix import get_prefix, set_prefix
 
 # Grab Token
-load_dotenv()
+try:
+    # Running on local PC
+    from dotenv import load_dotenv
+    load_dotenv()
+except:
+    # Running on replit
+    pass
 TOKEN = getenv("TOKEN")
 log(1, "s", "got .env TOKEN")
 
@@ -53,5 +58,8 @@ async def on_message(ctx):
 
 # Trigger Bot
 if __name__ == "__main__":
-    log(1, "s", "run")
+    log(1, "s", "run dashboard")
+    deploy()
+    
+    log(1, "s", "run bot")
     kfm.run(TOKEN)

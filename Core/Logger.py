@@ -5,8 +5,8 @@ from time import gmtime, strftime
 from os import getcwd
 
 # Filepaths
-SYSTEM_LOGS = "\\Core\\Logs\\system.kfmlog"
-AUDIT_LOGS = "\\Core\\Logs\\audit.kfmlog"
+SYSTEM_LOGS = "/Core/Logs/system.kfmlog"
+AUDIT_LOGS = "/Core/Logs/audit.kfmlog"
 
 # Log Command
 def log(status:int=0, logfile:str="s", logmsg:str="foo"):
