@@ -4,11 +4,12 @@
 from os import getcwd
 from Core.Logger import log
 from Core.IO import io_in, io_out
+from Core.Slash import s
 
 # Get prefix
 def get_prefix(config_path):
     # Read file
-    file_path = getcwd() + "/" + config_path + "/prefix.kfm" 
+    file_path = getcwd() + s() + config_path + s() + "prefix.kfm" 
     current_prefix = io_in(file_path+"config")
     static_prefix = io_in(file_path+"static")
     # Return
@@ -50,6 +51,7 @@ def set_prefix(config_path, new_prefix):
         return "That prefix is too long!"
     # otherwise, good to go
     else:
-        io_out(getcwd() + "\\" + config_path + "\\prefix.kfmconfig", new_prefix)
+        io_out(getcwd() + s() + config_path + s() + "prefix.kfmconfig", new_prefix)
         log(1, "s", "updated dynamic prefix to " + new_prefix)
+        log(1, "a", "updated dynamic prefix to " + new_prefix)
         return "The prefix has been changed to " + new_prefix

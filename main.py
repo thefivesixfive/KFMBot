@@ -8,6 +8,7 @@ from discord import Client
 
 from Core.Logger import log
 from Modules.Prefix import prefix
+from Modules.Security import security
 # from Modules.Prefix import get_prefix, set_prefix
 
 # Grab Token
@@ -48,7 +49,11 @@ async def on_message(ctx):
     if command == "help":
         # Return message
         await channel.send("Help is W.I.P!")
-    # Find which command it is
+    
+    # ADMIN COMMANDS
+    args = message[1:]
+    if not security.is_admin(args[-1]):
+        return
     if command == "prefix":
         # Attempt to set prefix
         status = prefix.set_prefix("CONFIG", message[1])
