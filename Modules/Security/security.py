@@ -45,7 +45,7 @@ def is_admin(config_path, security_code, author):
                 log(1, "s", "admin granted because of role")
                 return "role"
     # Otherwise
-    log(0, "s", author.id + " (" +author.name+") attempted admin command usage")
+    log(0, "s", str(author.id) + " (" +author.name+") attempted admin command usage")
     return "invalid"
 
 
