@@ -190,3 +190,148 @@
 [+] 12 Oct 21, 17:04:43 run dashboard
 [+] 12 Oct 21, 17:04:43 run bot
 [+] 12 Oct 21, 17:04:46 connect
+[+] 12 Oct 21, 17:06:38 got .env TOKEN
+[+] 12 Oct 21, 17:06:38 run dashboard
+[+] 12 Oct 21, 17:06:38 run bot
+[+] 12 Oct 21, 17:06:41 connect
+[+] 12 Oct 21, 17:06:43 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:06:43 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:06:43 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:07:00 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:07:00 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:07:00 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:07:54 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:07:54 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:07:54 prefix not found in emergencybypass
+[+] 12 Oct 21, 17:08:03 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:08:03 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:08:03 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:08:27 got .env TOKEN
+[+] 12 Oct 21, 17:08:27 run dashboard
+[+] 12 Oct 21, 17:08:27 run bot
+[+] 12 Oct 21, 17:08:30 connect
+[+] 12 Oct 21, 17:08:43 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:08:43 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:08:43 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:09:10 got .env TOKEN
+[+] 12 Oct 21, 17:09:10 run dashboard
+[+] 12 Oct 21, 17:09:10 run bot
+[+] 12 Oct 21, 17:09:12 connect
+[+] 12 Oct 21, 17:09:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:09:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:09:15 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:09:15 received request to change prefix
+[+] 12 Oct 21, 17:09:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:09:15 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:09:15 write to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:09:15 updated dynamic prefix to >
+[+] 12 Oct 21, 17:09:26 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:09:26 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:09:26 prefix not found in no
+[+] 12 Oct 21, 17:09:28 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:09:28 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:09:28 prefix not found in not
+[+] 12 Oct 21, 17:09:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:09:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:09:32 prefix not found in no
+[+] 12 Oct 21, 17:09:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:09:32 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:09:32 prefix not found in a
+[+] 12 Oct 21, 17:10:00 got .env TOKEN
+[+] 12 Oct 21, 17:10:00 run dashboard
+[+] 12 Oct 21, 17:10:00 run bot
+[+] 12 Oct 21, 17:10:02 connect
+[+] 12 Oct 21, 17:10:18 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:10:18 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:10:18 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:10:21 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:10:21 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:10:21 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:10:21 received request to change prefix
+[+] 12 Oct 21, 17:10:21 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:10:21 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:10:21 dynamic prefix already set to given value
+[+] 12 Oct 21, 17:10:27 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:10:27 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:10:27 prefix not found in yes
+[+] 12 Oct 21, 17:10:37 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:10:37 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:10:37 prefix not found in <@!673973748407468047>
+[+] 12 Oct 21, 17:10:44 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:10:44 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:10:44 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:10:44 received request to change prefix
+[+] 12 Oct 21, 17:10:44 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:10:44 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:10:44 dynamic prefix already set to given value
+[+] 12 Oct 21, 17:10:46 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:10:46 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:10:46 prefix not found in good
+[+] 12 Oct 21, 17:11:21 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:11:21 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:11:21 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:11:29 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:11:29 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:11:29 prefix > found in >prefix
+[+] 12 Oct 21, 17:14:42 got .env TOKEN
+[+] 12 Oct 21, 17:14:42 run dashboard
+[+] 12 Oct 21, 17:14:42 run bot
+[+] 12 Oct 21, 17:14:45 connect
+[+] 12 Oct 21, 17:14:55 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:14:55 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:14:55 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:14:55 received request to change prefix
+[+] 12 Oct 21, 17:14:55 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:14:55 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[-] 12 Oct 21, 17:14:55 new prefix too long
+[+] 12 Oct 21, 17:25:37 got .env TOKEN
+[+] 12 Oct 21, 17:25:37 run dashboard
+[+] 12 Oct 21, 17:25:37 run bot
+[+] 12 Oct 21, 17:25:40 connect
+[+] 12 Oct 21, 17:25:44 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:25:44 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:25:44 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:25:53 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:25:53 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:25:53 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:26:20 got .env TOKEN
+[+] 12 Oct 21, 17:26:20 run dashboard
+[+] 12 Oct 21, 17:26:20 run bot
+[+] 12 Oct 21, 17:26:23 connect
+[+] 12 Oct 21, 17:26:28 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:26:28 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:26:28 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:26:28 !!! fivesixfive USED SECURITY CODE !!!
+[+] 12 Oct 21, 17:27:23 got .env TOKEN
+[+] 12 Oct 21, 17:27:23 run dashboard
+[+] 12 Oct 21, 17:27:23 run bot
+[+] 12 Oct 21, 17:27:25 connect
+[+] 12 Oct 21, 17:27:30 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:27:30 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:27:30 prefix ?? found in ??preifx
+[+] 12 Oct 21, 17:27:38 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:27:38 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:27:38 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:27:59 got .env TOKEN
+[+] 12 Oct 21, 17:27:59 run dashboard
+[+] 12 Oct 21, 17:27:59 run bot
+[+] 12 Oct 21, 17:28:02 connect
+[+] 12 Oct 21, 17:28:07 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:28:07 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:28:07 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:28:07 !!! 361862785967194113 (fivesixfive) USED SECURITY CODE !!!
+[+] 12 Oct 21, 17:28:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:28:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:28:14 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:28:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:28:20 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:28:20 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:28:29 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:28:29 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:28:29 prefix ?? found in ??prefix
+[+] 12 Oct 21, 17:28:29 !!! 361862785967194113 (fivesixfive) USED SECURITY CODE !!!
+[+] 12 Oct 21, 17:28:29 received request to change prefix
+[+] 12 Oct 21, 17:28:29 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:28:29 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 17:28:29 write to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 17:28:29 updated dynamic prefix to -

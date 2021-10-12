@@ -45,19 +45,33 @@ async def on_message(ctx):
     command = prefix.check("CONFIG", first_word)
     if command == first_word:
         return
-    # Basic help command
-    if command == "help":
-        # Return message
-        await channel.send("Help is W.I.P!")
+    # Check for 0 args
+    args = message[1:]
+    if args == []:
+        # No args found
+        await channel.send("Please provide arguments!")
+        return
+    # NON-ADMIN COMMANDS
+    
     
     # ADMIN COMMANDS
-    args = message[1:]
-    if not security.is_admin(args[-1]):
+    # If no security code, quit
+    if not security.is_admin(args[-1], author):
         return
+    # If security code, trim it
+    else:
+        # Make sure not creating empty list
+        if not len(args) < 2:
+            args = args[0:-1]
+        # Removing code creates empty list
+        else:
+            await channel.send("Provide more arguments before security code!")
+            return
+
+    # Prefix set command
     if command == "prefix":
         # Attempt to set prefix
-        status = prefix.set_prefix("CONFIG", message[1])
-        # Return message
+        status = prefix.set_prefix("CONFIG", args[0])
         await channel.send(status)
     
 
