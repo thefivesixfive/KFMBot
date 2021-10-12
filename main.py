@@ -49,7 +49,6 @@ async def on_message(ctx):
     args = message[1:]
     if args == []:
         # No args found
-        await channel.send("Please provide arguments!")
         return
     # NON-ADMIN COMMANDS
     
