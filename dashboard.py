@@ -9,9 +9,9 @@ dashboard = Flask("")
 
 # Main page
 @dashboard.route("/")
-def dashboard():
+def home():
     # Read logs
-    with open("/Core/Logs/system.kfmlog", "r") as file:
+    with open("Core/Logs/system.kfmlog", "r") as file:
         return file.read()
 
 # Execute

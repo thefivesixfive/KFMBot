@@ -8,7 +8,7 @@ from Core.IO import io_in, io_out
 # Get prefix
 def get_prefix(config_path):
     # Read file
-    file_path = getcwd() + "\\" + config_path + "\\prefix.kfm" 
+    file_path = getcwd() + "/" + config_path + "/prefix.kfm" 
     current_prefix = io_in(file_path+"config")
     static_prefix = io_in(file_path+"static")
     # Return

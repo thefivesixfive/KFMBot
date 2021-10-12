@@ -2,7 +2,7 @@
 #
 
 # Imports
-from dashboard import deploy
+import dashboard
 from os import error, getenv
 from discord import Client
 
@@ -59,7 +59,7 @@ async def on_message(ctx):
 # Trigger Bot
 if __name__ == "__main__":
     log(1, "s", "run dashboard")
-    deploy()
+    dashboard.deploy()
     
     log(1, "s", "run bot")
     kfm.run(TOKEN)
