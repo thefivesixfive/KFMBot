@@ -17,6 +17,11 @@ def __io(filepath:str, mode:str, write_data:str=None):
                 file.write(write_data)
                 log(1, "s", mode+" to "+filepath)
                 return True
+    # FileNotFound Error
+    except FileNotFoundError:
+        # Create file
+        with open(filepath, "w+") as file:
+            pass
     # When an error happens
     except Exception as e:
         # Log
