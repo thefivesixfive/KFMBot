@@ -40,5 +40,9 @@ def io_append(filepath, data):
 
 def io_in(filepath):
     data = __io(filepath, "read")
-    return data
+    # Convert nonetype
+    if data == None:
+        return ''
+    else:
+        return data
     
