@@ -1,4 +1,5 @@
-*.kfmlog
+Core/Logs/system.kfmlog
+Core/Logs/audit.kfmlog
 *.kfmstatic
 *.kfmconfig
 
