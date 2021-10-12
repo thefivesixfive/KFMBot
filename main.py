@@ -55,10 +55,11 @@ async def on_message(ctx):
     
     # ADMIN COMMANDS
     # If no security code, quit
-    if not security.is_admin(args[-1], author):
+    method = security.is_admin("CONFIG", args[-1], author)
+    if method == "invalid":
         return
     # If security code, trim it
-    else:
+    elif method == "code":
         # Make sure not creating empty list
         if not len(args) < 2:
             args = args[0:-1]
