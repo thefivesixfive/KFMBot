@@ -47,5 +47,3 @@ def is_admin(config_path, security_code, author):
     # Otherwise
     log(0, "s", str(author.id) + " (" +author.name+") attempted admin command usage")
     return "invalid"
-
-
