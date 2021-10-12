@@ -174,3 +174,19 @@
 [+] 12 Oct 21, 14:55:18 read from /home/runner/KFMBot/CONFIG/prefix.kfmconfig
 [+] 12 Oct 21, 14:55:18 read from /home/runner/KFMBot/CONFIG/prefix.kfmstatic
 [-] 12 Oct 21, 14:55:18 prefix not found in <@!673973748407468047>
+[+] 12 Oct 21, 16:56:57 got .env TOKEN
+[+] 12 Oct 21, 16:56:57 run dashboard
+[+] 12 Oct 21, 16:56:57 run bot
+[+] 12 Oct 21, 16:57:00 connect
+[+] 12 Oct 21, 16:57:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 16:57:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 16:57:14 prefix ?? found in ??prefix
+[+] 12 Oct 21, 16:57:14 received request to change prefix
+[+] 12 Oct 21, 16:57:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 16:57:14 read from C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmstatic
+[+] 12 Oct 21, 16:57:14 write to C:\Users\caleb\Documents\Coding\Python\_bots\KFM\Code\CONFIG\prefix.kfmconfig
+[+] 12 Oct 21, 16:57:14 updated dynamic prefix to -
+[+] 12 Oct 21, 17:04:43 got .env TOKEN
+[+] 12 Oct 21, 17:04:43 run dashboard
+[+] 12 Oct 21, 17:04:43 run bot
+[+] 12 Oct 21, 17:04:46 connect

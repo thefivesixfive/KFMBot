@@ -1,12 +1,13 @@
 # Logging Module for KFM Bot
 
 # Imports
+from Core.Slash import s
 from time import gmtime, strftime
 from os import getcwd
 
 # Filepaths
-SYSTEM_LOGS = "/Core/Logs/system.kfmlog"
-AUDIT_LOGS = "/Core/Logs/audit.kfmlog"
+SYSTEM_LOGS = s()+"Core"+s()+"Logs"+s()+"system.kfmlog"
+AUDIT_LOGS = s()+"Core"+s()+"Logs"+s()+"audit.kfmlog"
 
 # Log Command
 def log(status:int=0, logfile:str="s", logmsg:str="foo"):

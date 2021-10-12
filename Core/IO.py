@@ -23,7 +23,6 @@ def __io(filepath:str, mode:str, write_data:str=None):
         log_message = "failed "+mode+" to "+filepath+" with error: "+e
         log(0, "s", log_message)
         return False
-    
 
 # File In / Out Manager
 def io_out(filepath, data):
