@@ -12,7 +12,13 @@ dashboard = Flask("")
 def home():
     # Read logs
     with open("Core/Logs/system.kfmlog", "r") as file:
-        return file.read()
+        logs = file.read()
+    # Reorder
+    log_list = logs.split("\n")
+    log_list.reverse()
+    # Prepare for HTML
+    return '</br>'.join(log_list)
+
 
 # Execute
 def run():

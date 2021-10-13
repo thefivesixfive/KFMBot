@@ -33,7 +33,7 @@ def is_admin(config_path, security_code, author):
     # If NOT individual file empty
     if not admins[0] == ['']:
         # check author id
-        if author.id in admins[0]:
+        if str(author.id) in admins[0]:
             log(1, "s", "admin granted because of id")
             return "user_id"
     # check role
