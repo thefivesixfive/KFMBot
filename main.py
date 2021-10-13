@@ -5,6 +5,7 @@
 import dashboard
 from os import error, getenv
 from discord import Client
+from random import randint
 
 from Core.Logger import log
 from Modules.Prefix import prefix
@@ -45,13 +46,23 @@ async def on_message(ctx):
     command = prefix.check("CONFIG", first_word)
     if command == first_word:
         return
-    # Check for 0 args
+    
+    # ARGLESS Commands
+    if command == "coinflip":
+        # Get random number
+        number = randint(0,1)
+        # Send heads or tails
+        if number:
+            await channel.send("Heads!")
+        else:
+            await channel.send("Tails!")
+        return
+
+    # NON-ADMIN COMMANDS (with args)
     args = message[1:]
     if args == []:
         # No args found
         return
-    # NON-ADMIN COMMANDS
-    
     
     # ADMIN COMMANDS
     # If no security code, quit
