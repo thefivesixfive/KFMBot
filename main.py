@@ -4,7 +4,7 @@
 # Imports
 import dashboard
 from os import error, getenv
-from discord import Client
+from discord import Client, Game
 from random import randint
 
 from Core.Logger import log
@@ -30,6 +30,7 @@ kfm = Client()
 @kfm.event
 async def on_ready():
     log(1, "s", "connect")
+    await kfm.change_presence(activity=Game(name="a game"))
 
 # Message
 @kfm.event
