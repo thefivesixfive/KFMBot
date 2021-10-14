@@ -84,6 +84,18 @@ async def on_message(ctx):
         # Attempt to set prefix
         status = prefix.set_prefix("CONFIG", args[0])
         await channel.send(status)
+
+    # Admin set command
+    if command == "admin+":
+        # Attempt to set admin
+        status = security.set_admin("CONFIG", args[0], modification="add")
+        await channel.send(status)
+    
+    # Admin remove command
+    if command == "admin-":
+        # Attempt to set admin
+        status = security.set_admin("CONFIG", args[0], modification="remove")
+        await channel.send(status)
     
 
 # Trigger Bot

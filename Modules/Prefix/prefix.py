@@ -29,7 +29,6 @@ def check(config_path, command):
             # return command without prefix
             return command[prefix_length:]
     # will only run if both prefixes failed
-    log(0, "s", "prefix not found in " + command)
     return command
 
 # Set prefix
@@ -54,4 +53,4 @@ def set_prefix(config_path, new_prefix):
         io_out(getcwd() + s() + config_path + s() + "prefix.kfmconfig", new_prefix)
         log(1, "s", "updated dynamic prefix to " + new_prefix)
         log(1, "a", "updated dynamic prefix to " + new_prefix)
-        return "The prefix has been changed to " + new_prefix
+        return "The prefix has been changed to `" + new_prefix + "`"

@@ -25,7 +25,7 @@ def __io(filepath:str, mode:str, write_data:str=None):
     # When an error happens
     except Exception as e:
         # Log
-        log_message = "failed "+mode+" to "+filepath+" with error: "+e
+        log_message = "failed "+mode+" to "+filepath+" with error: "+str(e)
         log(0, "s", log_message)
         return False
 

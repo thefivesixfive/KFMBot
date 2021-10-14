@@ -17,6 +17,24 @@ def __fetch_admin(config_path):
 
     return (admin_people, admin_roles)
 
+def __create_admin(config_path, new_admins):
+    # Establish slash (/ or \\)
+    S = s()
+    # Create base filepath
+    file_path = getcwd() + S + config_path + S + "admin_"
+    # Convert user admins to string
+    new_user_admins = ""
+    print(new_admins)
+    for admin in new_admins[0]:
+        new_user_admins += admin + "\n"
+    # Convert role admins to string
+    new_role_admins = ""
+    for admin in new_admins[1]:
+        new_role_admins += admin + "\n"
+    # Get admin IDs for both individuals and ranks
+    io_out(file_path+"people.kfmconfig", new_user_admins)
+    io_out(file_path+"roles.kfmconfig", new_role_admins)
+
 # Check admin rank
 def is_admin(config_path, security_code, author):
     # Check code first
@@ -47,3 +65,47 @@ def is_admin(config_path, security_code, author):
     # Otherwise
     log(0, "s", str(author.id) + " (" +author.name+") attempted admin command usage")
     return "invalid"
+
+# Set admin rank
+def set_admin(config_path, admin, modification):
+    # Determine if ID
+    if "<@&" in admin:
+        admin_type = 1
+        entity_type = "role"
+    elif "<@" in admin:
+        admin_type = 0
+        entity_type = ""
+    else:
+        log(0, "s", "no valid ID found in " + admin)
+        return "Not a valid user or role!"
+    # Grab current admins
+    admins = __fetch_admin(config_path)
+    # Clean up ID
+    new_admin_id = admin
+    for character in "<@!&>":
+        new_admin_id = new_admin_id.replace(character, "")
+    # Remove admin from list
+    if modification == "remove":
+        # Check if not in list already
+        if not new_admin_id in admins[admin_type]:
+            return admin + " is not an admin" + entity_type
+        # remove admin
+        admins[admin_type].remove(new_admin_id)
+        # commit
+        __create_admin(config_path, admins)
+        log(1, "s", "removed " + entity_type + new_admin_id + " from admins")
+        # return
+        return "Removed " + admin + " from permitted admins"
+    # Admin addition
+    else:
+        # Check if in list already
+        if new_admin_id in admins[admin_type]:
+            return admin + " is already an admin" + entity_type
+        # add admin
+        admins[admin_type].append(new_admin_id)
+        # commit
+        __create_admin(config_path, admins)
+        log(1, "s", "added " + entity_type + new_admin_id + " to admins")
+        # return
+        return "Added " + admin + " to permitted admins"
+    
