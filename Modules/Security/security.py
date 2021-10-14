@@ -108,4 +108,3 @@ def set_admin(config_path, admin, modification):
         log(1, "s", "added " + entity_type + new_admin_id + " to admins")
         # return
         return "Added " + admin + " to permitted admins"
-    
