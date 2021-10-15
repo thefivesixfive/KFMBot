@@ -1,0 +1,17 @@
+cmd_nm
+Command Name
+Description
+
+perm_lvl
+Permission Level
+-1: Everyone can use this command
+ 0: Only server owner / full administrator can use this command
+>0: Configurable
+
+args_req
+Arguments Required
+The number of arguments required
+
+execute
+Execute String
+The name of the function to execute
