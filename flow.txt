@@ -32,8 +32,6 @@ add admin to list with perm number
 write admin files
 return
 
-
-
 {
   “admin_set”:
   {
