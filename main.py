@@ -30,22 +30,19 @@ kfm = Client()
 @kfm.event
 async def on_ready():
     log(1, "s", "connect")
-    await kfm.change_presence(activity=Game(name="a game"))
+    await kfm.change_presence(activity=Game(name="with deez nuts!"))
 
 # Message
 @kfm.event
 async def on_message(ctx):
+    # Check if self
+    if ctx.author == kfm.user:
+        return
     # Split CTX into respect variables
     author = ctx.author
-    message = ctx.content.split(" ")
-    first_word = message[0]
     channel = ctx.channel
-    # Check if self
-    if author == kfm.user:
-        return
     # Check prefix
-    command = prefix.check("CONFIG", first_word)
-    if command == first_word:
+    if prefix.check("CONFIG", ctx.content):
         return
     
     # ARGLESS Commands
@@ -101,8 +98,10 @@ async def on_message(ctx):
 
 # Trigger Bot
 if __name__ == "__main__":
+    # Deploy dashboard
     log(1, "s", "run dashboard")
     dashboard.deploy()
     
+    # Deploy bot
     log(1, "s", "run bot")
     kfm.run(TOKEN)
