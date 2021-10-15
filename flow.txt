@@ -1,0 +1,40 @@
+Bot Code Flow on Admin (example admin_set)
+main.py (??admin_set @fivesixfive 0)
+grab saved prefixes (>, ??)
+parse out prefix in message (??)
+compare to saved prefixes (?? != >, ?? == ??)
+
+grab command list (admin_set)
+parse out command in message  (admin_set)
+check if message command in list (admin_set in [admin_set])
+check permission level
+  load admins list (@blob, @Admin)
+  get author ID / Role (@blob, @Admin)
+  compare loaded data vs author data
+  (if false)
+  try: get last arg
+    except: return
+  load fallback prefix
+  check last arg vs fallback prefix
+check for correct number of arguments
+
+? execute command
+
+Execution Flow
+receive arguments
+check argument validity (arg1 == user/role / arg2 == int)
+read admin files
+add admin to list with perm number
+write admin files
+return
+
+
+
+{
+  “admin_set”:
+  {
+    “perm_lvl”:0,
+    “args_req”:2,
+    “execute”:”
+  }
+}
