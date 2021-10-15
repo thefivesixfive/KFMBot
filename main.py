@@ -45,56 +45,6 @@ async def on_message(ctx):
     if prefix.check("CONFIG", ctx.content):
         return
     
-    # ARGLESS Commands
-    if command == "coinflip":
-        # Get random number
-        number = randint(0,1)
-        # Send heads or tails
-        if number:
-            await channel.send("Heads!")
-        else:
-            await channel.send("Tails!")
-        return
-
-    # NON-ADMIN COMMANDS (with args)
-    args = message[1:]
-    if args == []:
-        # No args found
-        return
-    
-    # ADMIN COMMANDS
-    # If no security code, quit
-    method = security.is_admin("CONFIG", args[-1], author)
-    if method == "invalid":
-        return
-    # If security code, trim it
-    elif method == "code":
-        # Make sure not creating empty list
-        if not len(args) < 2:
-            args = args[0:-1]
-        # Removing code creates empty list
-        else:
-            await channel.send("Provide more arguments before security code!")
-            return
-
-    # Prefix set command
-    if command == "prefix":
-        # Attempt to set prefix
-        status = prefix.set_prefix("CONFIG", args[0])
-        await channel.send(status)
-
-    # Admin set command
-    if command == "admin+":
-        # Attempt to set admin
-        status = security.set_admin("CONFIG", args[0], modification="add")
-        await channel.send(status)
-    
-    # Admin remove command
-    if command == "admin-":
-        # Attempt to set admin
-        status = security.set_admin("CONFIG", args[0], modification="remove")
-        await channel.send(status)
-    
 
 # Trigger Bot
 if __name__ == "__main__":
