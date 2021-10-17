@@ -4,6 +4,7 @@
 from Core.IO import io_in, io_out
 from Core.Logger import log
 from Core.Prefix import check_prefix
+from Core.Security import check_admin
 from Core.Slash import s
 
 from os import getcwd
@@ -22,7 +23,7 @@ def __open_index():
     return index
 
 # Check Command
-def check_command(config_path, message, author_id):
+def check_command(config_path, message, author):
     # Extract prefixless-command
     command = check_prefix(config_path, message)
     # Grab commandex
@@ -32,8 +33,8 @@ def check_command(config_path, message, author_id):
         log(0, "s", f"command {command} not found in commandex")
         return False
     # check if author has perm levels
-    has_perms = True
-    if not has_perms:
+    required_level = commandex[command]["perm_lvl"]
+    if not check_admin(config_path, message, author, required_level):
         log(0, "s", f"insufficient perms for {command}")
         return False
     # check if proper amount of arguments exist
