@@ -16,7 +16,7 @@ def get_prefix(config_path):
     return (current_prefix, static_prefix)
 
 # check prefix to see if it matches
-def check(config_path, message):
+def check_prefix(config_path, message):
     # Get command from message
     command = message.split(" ")[0]
     # Read prefixes
@@ -27,11 +27,12 @@ def check(config_path, message):
         if command[0:prefix_length] == prefix:
             print(prefix)
             # Log success
-            log(1, "s", "prefix " + prefix + " found in " + command)
-            # return success
-            return True
+            log(1, "s", f"prefix {prefix} found in {command}")
+            # return command without prefix
+            return command[prefix_length:]
     # will only run if both prefixes failed
-    return False
+    log(0, "s", f"prefix not found in {command}")
+    return "no_prefix_found"
 
 # Set prefix
 def set_prefix(config_path, new_prefix):

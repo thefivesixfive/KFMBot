@@ -8,8 +8,7 @@ from discord import Client, Game
 from random import randint
 
 from Core.Logger import log
-from Modules.Prefix import prefix
-from Modules.Security import security
+from Core.Commands import check_command
 # from Modules.Prefix import get_prefix, set_prefix
 
 # Grab Token
@@ -17,9 +16,10 @@ try:
     # Running on local PC
     from dotenv import load_dotenv
     load_dotenv()
-except:
+    print(getenv("ADMIN"))
+except Exception as e:
     # Running on replit
-    pass
+    print(e)
 TOKEN = getenv("TOKEN")
 log(1, "s", "got .env TOKEN")
 
@@ -30,7 +30,6 @@ kfm = Client()
 @kfm.event
 async def on_ready():
     log(1, "s", "connect")
-    await kfm.change_presence(activity=Game(name="with deez nuts!"))
 
 # Message
 @kfm.event
@@ -41,9 +40,11 @@ async def on_message(ctx):
     # Split CTX into respect variables
     author = ctx.author
     channel = ctx.channel
-    # Check prefix
-    if prefix.check("CONFIG", ctx.content):
+    # Check Command
+    if check_command("CONFIG", ctx.content, author.id) == False:
         return
+    # Send confirm msg
+    await channel.send("Nothing is wrong here!")
     
 
 # Trigger Bot
