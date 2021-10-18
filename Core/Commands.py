@@ -24,6 +24,7 @@ def __open_index():
 
 # Check Command
 def check_command(config_path, message, author):
+    print(message)
     # Extract prefixless-command
     command = check_prefix(config_path, message)
     # Grab commandex
@@ -31,16 +32,20 @@ def check_command(config_path, message, author):
     # Check if command not in commandex
     if not command in commandex:
         log(0, "s", f"command {command} not found in commandex")
-        return False
+        return (False, False)
     # check if author has perm levels
     required_level = commandex[command]["perm_lvl"]
     message = check_admin(config_path, message, author, required_level)
+    print(message)
     if not message:
         log(0, "s", f"insufficient perms for {command}")
-        return False
-    # check if proper amount of arguments exist
+        return (False, False)
+    # grab required variables
     arguments = message.split(" ")[1:]
-    if commandex[command]["args_req"] < len(arguments):
-        return False
+    arguments_required = commandex[command]["args_req"]
+    # check if proper amount of arguments exist
+    if int(arguments_required) > len(arguments):
+        log(0, "s", f"insufficient arg count for {command}")
+        return (False, False)
     # Everything has passed all checks
     return (command, arguments)

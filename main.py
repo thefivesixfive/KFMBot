@@ -51,9 +51,9 @@ async def on_message(ctx):
     if not command:
         return
     # Else, run
-    module_refrence[command](arguments)
+    message = module_refrence[command](arguments)
     # Send confirm msg
-    await channel.send("Nothing is wrong here!")
+    await channel.send(message)
     
 
 # Trigger Bot

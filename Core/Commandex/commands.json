@@ -1,8 +1,9 @@
 {
     "coinflip":
     {
-      "perm_lvl":0,
+      "perm_lvl":-1,
       "args_req":0,
+      "args_taken":1,
       "execute":"coinflip"
     }
 }

@@ -67,9 +67,6 @@ def check_admin(config_path, message, author, required_level):
                     log(1, "s", f"User {author.id} ({author.name}) used {required_level} command")
                     return message
 
-    # When all else fails
-    return False
-
     # Grab arguments
     arguments = message.split(" ")[1:]
     # Try security code
@@ -84,6 +81,9 @@ def check_admin(config_path, message, author, required_level):
                 log(1, location, "!!! {author.id} ({author.name}) USED SECURITY CODE !!!")
             # Return message without security code
             return " ".join(message.split(" ")[:-1])
+
+    # When all else fails
+    return False
             
 
 def __create_admin(config_path, new_admins):
