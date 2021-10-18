@@ -9,7 +9,13 @@ from random import randint
 
 from Core.Logger import log
 from Core.Commands import check_command
-# from Modules.Prefix import get_prefix, set_prefix
+
+from Modules.Misc import coinflip
+
+# Module refrence dictionary
+module_refrence = {
+    "coinflip":coinflip.run
+}
 
 # Grab Token
 try:
@@ -41,8 +47,11 @@ async def on_message(ctx):
     author = ctx.author
     channel = ctx.channel
     # Check Command
-    if check_command("CONFIG", ctx.content, author.id) == False:
+    command, arguments = check_command("CONFIG", ctx.content, ctx.author)
+    if not command:
         return
+    # Else, run
+    module_refrence[command](arguments)
     # Send confirm msg
     await channel.send("Nothing is wrong here!")
     

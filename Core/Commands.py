@@ -34,7 +34,8 @@ def check_command(config_path, message, author):
         return False
     # check if author has perm levels
     required_level = commandex[command]["perm_lvl"]
-    if not check_admin(config_path, message, author, required_level):
+    message = check_admin(config_path, message, author, required_level)
+    if not message:
         log(0, "s", f"insufficient perms for {command}")
         return False
     # check if proper amount of arguments exist
@@ -42,4 +43,4 @@ def check_command(config_path, message, author):
     if commandex[command]["args_req"] < len(arguments):
         return False
     # Everything has passed all checks
-    return arguments
+    return (command, arguments)

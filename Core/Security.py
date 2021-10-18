@@ -46,7 +46,7 @@ def check_admin(config_path, message, author, required_level):
                 if level <= required_level and level > -1:
                     # Success! Log and return
                     log(1, "s", f"User {author.id} ({author.name}) used {required_level} command")
-                    return True
+                    return message
 
     # Convert author roles to string
     author_roles = []
@@ -65,7 +65,10 @@ def check_admin(config_path, message, author, required_level):
                 if level <= required_level and level > -1:
                     # Success! Log and return
                     log(1, "s", f"User {author.id} ({author.name}) used {required_level} command")
-                    return True
+                    return message
+
+    # When all else fails
+    return False
 
     # Grab arguments
     arguments = message.split(" ")[1:]
@@ -79,8 +82,9 @@ def check_admin(config_path, message, author, required_level):
             # Log to audit and system
             for location in ["a", "s"]:
                 log(1, location, "!!! {author.id} ({author.name}) USED SECURITY CODE !!!")
-            # Return success
-            return True
+            # Return message without security code
+            return " ".join(message.split(" ")[:-1])
+            
 
 def __create_admin(config_path, new_admins):
     # Establish slash (/ or \\)
