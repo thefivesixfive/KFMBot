@@ -1,10 +1,4 @@
 {
-    "prefix":
-    {
-      "perm_lvl":1,
-      "args_req":1,
-      "execute":"set_prefix"
-    },
     "coinflip":
     {
       "perm_lvl":0,
