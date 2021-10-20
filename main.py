@@ -8,14 +8,11 @@ from discord import Client, Game
 from random import randint
 
 from Core.Logger import log
-from Core.Commands import check_command
+from Core.Prefix import check_prefix
+from Core.Security import check_admin
+from Core.Commands import check_command, grab_command
 
 from Modules.Misc import coinflip
-
-# Module refrence dictionary
-module_refrence = {
-    "coinflip":coinflip.run
-}
 
 # Grab Token
 try:
@@ -43,17 +40,58 @@ async def on_message(ctx):
     # Check if self
     if ctx.author == kfm.user:
         return
+    # Other variables
+    CONFIG = "CONFIG"
     # Split CTX into respect variables
     author = ctx.author
     channel = ctx.channel
+    command = ctx.content.split(" ")[0]
+    arguments = ctx.content.split(" ")[1:]
+
+    # Grab prefix
+    parsed_command = check_prefix(CONFIG, command)
+
     # Check Command
-    command, arguments = check_command("CONFIG", ctx.content, ctx.author)
-    if not command:
+    if check_command(parsed_command):
+        # Grab data about command
+        log(0, "s", f"command {parsed_command} found in commandex")
+        command_reqs = grab_command(parsed_command)
+    # Otherwise, command not found
+    else:
+        log(0, "s", f"command {parsed_command} not found in commandex")
         return
-    # Else, run
-    message = module_refrence[command](arguments)
-    # Send confirm msg
-    await channel.send(message)
+    
+    # Check security
+    required_level = command_reqs["perm_lvl"]
+    message = check_admin(CONFIG, arguments, author, required_level)
+    if not message:
+        log(0, "s", f"insufficient perms for {command}")
+        return
+
+    # Check argument count
+    arguments_required = command_reqs["args_req"]
+    # check if proper amount of arguments exist
+    if int(arguments_required) > len(arguments):
+        log(0, "s", f"insufficient arg count for {command}")
+        return
+
+    # Admin Set
+    if parsed_command == "admin.make":
+        await ctx.channel.send("That feature hasn't been implemented yet!")
+        return
+    # Admin Remove
+    if parsed_command == "admin.smite":
+        await ctx.channel.send("That feature hasn't been implemented yet!")
+        return
+
+    # Execute commands accordingly
+    if parsed_command == "coinflip":
+        # Generate message and send
+        message = coinflip.run(arguments)
+        await ctx.channel.send(message)
+        # Log and return
+        log(1, "s", "ran coinflip")
+        return
     
 
 # Trigger Bot

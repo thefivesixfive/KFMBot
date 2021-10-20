@@ -24,7 +24,7 @@ def __fetch_admin(config_path):
     return (admin_people, admin_roles)
 
 # Check admin rank
-def check_admin(config_path, message, author, required_level):
+def check_admin(config_path, arguments, author, required_level):
     # If -1 (everyone's command)
     if required_level < 0:
         return True
@@ -46,7 +46,7 @@ def check_admin(config_path, message, author, required_level):
                 if level <= required_level and level > -1:
                     # Success! Log and return
                     log(1, "s", f"User {author.id} ({author.name}) used {required_level} command")
-                    return message
+                    return arguments
 
     # Convert author roles to string
     author_roles = []
@@ -65,10 +65,8 @@ def check_admin(config_path, message, author, required_level):
                 if level <= required_level and level > -1:
                     # Success! Log and return
                     log(1, "s", f"User {author.id} ({author.name}) used {required_level} command")
-                    return message
+                    return arguments
 
-    # Grab arguments
-    arguments = message.split(" ")[1:]
     # Try security code
     if len(arguments) > 0:
         # Grab security code
@@ -80,7 +78,7 @@ def check_admin(config_path, message, author, required_level):
             for location in ["a", "s"]:
                 log(1, location, "!!! {author.id} ({author.name}) USED SECURITY CODE !!!")
             # Return message without security code
-            return " ".join(message.split(" ")[:-1])
+            return " ".join(arguments[:-1])
 
     # When all else fails
     return False

@@ -14,6 +14,6 @@ def run(args):
     # Generate as many flips as needs
     for _ in range(0, iterations):
         # Flip a coin
-        message += f"{choice(['Heads!', 'Tails!'])}\n"
+        message += f"{choice(['Heads!', 'Tails!'])} "
     # Return
     return message
