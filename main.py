@@ -2,15 +2,16 @@
 #
 
 # Imports
+from discord.flags import Intents
 import dashboard
 from os import error, getenv
-from discord import Client, Game
-from random import randint
+from discord import Client, Intents
 
 from Core.Logger import log
 from Core.Prefix import check_prefix
-from Core.Security import check_admin
+from Core.Security import check_admin, set_admin
 from Core.Commands import check_command, grab_command
+from Core.ID import is_user
 
 from Modules.Misc import coinflip
 
@@ -27,7 +28,8 @@ TOKEN = getenv("TOKEN")
 log(1, "s", "got .env TOKEN")
 
 # Create Client
-kfm = Client()
+intents = Intents(messages=True, guilds=True)
+kfm = Client(intents=intents)
 
 # Initial Boot
 @kfm.event
@@ -63,8 +65,8 @@ async def on_message(ctx):
     
     # Check security
     required_level = command_reqs["perm_lvl"]
-    message = check_admin(CONFIG, arguments, author, required_level)
-    if not message:
+    arguments = check_admin(CONFIG, arguments, author, required_level)
+    if arguments == None:
         log(0, "s", f"insufficient perms for {command}")
         return
 
@@ -77,11 +79,39 @@ async def on_message(ctx):
 
     # Admin Set
     if parsed_command == "admin.make":
-        await ctx.channel.send("That feature hasn't been implemented yet!")
+        # Run command
+        message = set_admin("CONFIG", True, arguments)
+        await ctx.channel.send(message)
+        # Log and return
+        log(1, "s", "ran admin.make")
         return
+        
     # Admin Remove
     if parsed_command == "admin.smite":
-        await ctx.channel.send("That feature hasn't been implemented yet!")
+        # Run command
+        message = set_admin("CONFIG", False, arguments)
+        await ctx.channel.send(message)
+        # Log and return
+        log(1, "s", "ran admin.smite")
+        return
+
+    # User management
+    if parsed_command == "user.kick":
+        # Try to parse ID
+        id = is_user(arguments[0])
+        # Run command
+        try:
+            # Grab user and kick
+            target = await kfm.fetch_user(id[1])
+            await ctx.guild.kick(target, reason=arguments[1])
+            # Message and log
+            message = f"Kicked {arguments[0]} from the server!"
+            log(1, "a", f"Kicked user {id[1]}")
+        except Exception as e:
+            message = "Invalid user!"
+            log(0, "s", f"Failed to kick {id[1]} for {e}")
+        # Return message
+        await ctx.channel.send(message)
         return
 
     # Execute commands accordingly

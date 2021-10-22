@@ -1,9 +1,43 @@
 {
+    "admin.smite":
+    {
+      "perm_lvl":0,
+      "args_req":1
+    },
+
+    "admin.make":
+    {
+      "perm_lvl":0,
+      "args_req":2
+    },
+
+    "user.kick":
+    {
+      "perm_lvl":1,
+      "args_req":2
+    },
+
+    "user.ban":
+    {
+      "perm_lvl":1,
+      "args_req":2
+    },
+
+    "user.mute":
+    {
+      "perm_lvl":1,
+      "args_req":1
+    },
+
+    "user.unmute":
+    {
+      "perm_lvl":1,
+      "args_req":1
+    },
+
     "coinflip":
     {
       "perm_lvl":-1,
-      "args_req":0,
-      "args_taken":1,
-      "execute":"coinflip"
+      "args_req":0
     }
 }
