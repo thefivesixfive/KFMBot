@@ -99,17 +99,23 @@ async def on_message(ctx):
     if parsed_command == "user.kick":
         # Try to parse ID
         id = is_user(arguments[0])
+        # check if author
+        if str(ctx.author.id) == id[1]:
+            await ctx.channel.send("You can't kick yourself!")
+            return
         # Run command
         try:
+            # generate reason
+            reason = " ".join(arguments[1:])
             # Grab user and kick
             target = await kfm.fetch_user(id[1])
-            await ctx.guild.kick(target, reason=arguments[1])
+            await ctx.guild.kick(target, reason=reason)
             # Message and log
-            message = f"Kicked {arguments[0]} from the server!"
-            log(1, "a", f"Kicked user {id[1]}")
+            message = f"Kicked {target.name}#{target.discriminator} from the server!"
+            log(1, "a", f"Kicked user {target.id} ({target.name}#{target.discriminator})")
         except Exception as e:
             message = "Invalid user!"
-            log(0, "s", f"Failed to kick {id[1]} for {e}")
+            log(0, "s", f"Failed to kick {id} for {e}")
         # Return message
         await ctx.channel.send(message)
         return
