@@ -35,3 +35,10 @@ def grab_command(command):
     commandex = __open_index()
     # Grab data
     return commandex[command]
+
+# All commands
+def all_commands():
+    # Grab commandex
+    commandex = __open_index()
+    # Return
+    return commandex

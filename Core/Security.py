@@ -27,11 +27,10 @@ def __fetch_admin(config_path):
 def check_admin(config_path, arguments, author, required_level):
     # If -1 (everyone's command)
     if required_level < 0:
-        return []
+        return arguments
     # These commands will return false later, because this is the first and final
     # check for any general commands. Other ranked commands need to not worry
     # about including -1, so that's why checking for it returns False later in the code
-
     # Try security code
     if len(arguments) > 0:
         # Grab security code

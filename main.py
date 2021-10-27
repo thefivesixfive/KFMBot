@@ -14,6 +14,9 @@ from Core.Commands import check_command, grab_command
 from Core.ID import is_user
 
 from Modules.Misc import coinflip
+from Modules.Misc import help
+from Modules.Moderation import kick
+from Modules.Moderation import ban
 
 # Grab Token
 try:
@@ -56,7 +59,7 @@ async def on_message(ctx):
     # Check Command
     if check_command(parsed_command):
         # Grab data about command
-        log(0, "s", f"command {parsed_command} found in commandex")
+        log(1, "s", f"command {parsed_command} found in commandex")
         command_reqs = grab_command(parsed_command)
     # Otherwise, command not found
     else:
@@ -69,13 +72,20 @@ async def on_message(ctx):
     if arguments == None:
         log(0, "s", f"insufficient perms for {command}")
         return
-
     # Check argument count
     arguments_required = command_reqs["args_req"]
     # check if proper amount of arguments exist
     if int(arguments_required) > len(arguments):
         log(0, "s", f"insufficient arg count for {command}")
         return
+
+    # Help
+    if parsed_command == "help":
+        # Run
+        message = help.help(arguments)
+        # Log
+        log(1, "s", "ran help command")
+        await ctx.channel.send(message)
 
     # Admin Set
     if parsed_command == "admin.make":
@@ -84,8 +94,7 @@ async def on_message(ctx):
         await ctx.channel.send(message)
         # Log and return
         log(1, "s", "ran admin.make")
-        return
-        
+        return    
     # Admin Remove
     if parsed_command == "admin.smite":
         # Run command
@@ -97,28 +106,27 @@ async def on_message(ctx):
 
     # User management
     if parsed_command == "user.kick":
-        # Try to parse ID
-        id = is_user(arguments[0])
-        # check if author
-        if str(ctx.author.id) == id[1]:
-            await ctx.channel.send("You can't kick yourself!")
-            return
-        # Run command
-        try:
-            # generate reason
-            reason = " ".join(arguments[1:])
-            # Grab user and kick
-            target = await kfm.fetch_user(id[1])
-            await ctx.guild.kick(target, reason=reason)
-            # Message and log
-            message = f"Kicked {target.name}#{target.discriminator} from the server!"
-            log(1, "a", f"Kicked user {target.id} ({target.name}#{target.discriminator})")
-        except Exception as e:
-            message = "Invalid user!"
-            log(0, "s", f"Failed to kick {id} for {e}")
-        # Return message
+        # Try to kick
+        message = await kick.kick(kfm, ctx, arguments)
         await ctx.channel.send(message)
+        # Send message and quit
+        log(1, "s", "ran user.kick")
         return
+    if parsed_command == "user.ban":
+        # Try to ban
+        message = await ban.ban(kfm, ctx, arguments)
+        await ctx.channel.send(message)
+        # Send message and quit
+        log(1, "s", "ran user.ban")
+        return
+    if parsed_command == "user.unban":
+        # Attempt
+        message = await ban.unban(kfm, ctx, arguments)
+        await ctx.channel.send(message)
+        # Send message and quit
+        log(1, "s", "ran user.unban")
+        return
+
 
     # Execute commands accordingly
     if parsed_command == "coinflip":
