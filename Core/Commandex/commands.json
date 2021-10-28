@@ -1,0 +1,73 @@
+{
+    "help":
+    {
+      "perm_lvl":-1,
+      "args_req":0,
+      "usage":"",
+      "help":"https://tenor.com/view/barack-obama-why-shrug-gif-14239510"
+    },
+
+    "admin.smite":
+    {
+      "perm_lvl":0,
+      "args_req":1,
+      "usage":"`admin.smite @<user/role>`",
+      "help":"`Removes admin from specific rank or role`"
+    },
+
+    "admin.make":
+    {
+      "perm_lvl":0,
+      "args_req":2,
+      "usage":"`admin.make @<user/role> level`",
+      "help":"Adds a rank or role as an admin at a certain level.\nUse `help admin.levels` for more detail"
+    },
+
+    "user.kick":
+    {
+      "perm_lvl":1,
+      "args_req":1,
+      "usage":"`user.kick @<user> (optional)reason`",
+      "help":"`Instantly kicks a user`"
+    },
+
+    "user.ban":
+    {
+      "perm_lvl":1,
+      "args_req":2,
+      "usage":"`user.ban @<user> reason`",
+      "help":"Instantly bans a user"
+    },
+
+    "user.unban":
+    {
+      "perm_lvl":1,
+      "args_req":1,
+      "usage":"`user.unban <user_id>`",
+      "help":"Removes a ban from a user"
+    },
+
+    "user.mute":
+    {
+      "perm_lvl":1,
+      "args_req":1,
+      "usage":"`user.mute @<user> duration unit reason`",
+      "help":"Mutes a user for duration.\nMinutes, hours, and days are acceptable units"
+    },
+
+    "user.unmute":
+    {
+      "perm_lvl":1,
+      "args_req":1,
+      "usage":"`user.unmute @<user>`",
+      "help":"Undoes `user.mute`"
+    },
+
+    "coinflip":
+    {
+      "perm_lvl":-1,
+      "args_req":0,
+      "usage":"`coinflip times (opt)`",
+      "help":"Flips a coin once or for an optional amount of times."
+    }
+}
