@@ -17,6 +17,7 @@ from Modules.Misc import coinflip
 from Modules.Misc import help
 from Modules.Moderation import kick
 from Modules.Moderation import ban
+from Modules.Moderation import mute
 
 # Grab Token
 try:
@@ -61,23 +62,51 @@ async def on_message(ctx):
         # Grab data about command
         log(1, "s", f"command {parsed_command} found in commandex")
         command_reqs = grab_command(parsed_command)
+
+        # Check security
+        required_level = command_reqs["perm_lvl"]
+        arguments = check_admin(CONFIG, arguments, author, required_level)
+        if arguments == None:
+            log(0, "s", f"insufficient perms for {command}")
+            return
+
+        # Check argument count
+        arguments_required = command_reqs["args_req"]
+        # check if proper amount of arguments exist
+        if int(arguments_required) > len(arguments):
+            log(0, "s", f"insufficient arg count for {command}")
+            return
     # Otherwise, command not found
     else:
+        # Check if muted outside of command
+        print(mute.check_mute(CONFIG, ctx))
+        if mute.check_mute(CONFIG, ctx):
+            await ctx.delete()
+        # Continue quit
         log(0, "s", f"command {parsed_command} not found in commandex")
         return
-    
-    # Check security
-    required_level = command_reqs["perm_lvl"]
-    arguments = check_admin(CONFIG, arguments, author, required_level)
-    if arguments == None:
-        log(0, "s", f"insufficient perms for {command}")
+
+    print("\n\n\nTop of the list\n\n\n")
+
+    # Mute Management
+    if parsed_command == "user.mute":
+        # Attempt
+        message = mute.set_mutes(CONFIG, True, arguments)
+        await ctx.channel.send(message)
+        # Log and return
+        log(1, "s", "ran user.mute")
         return
-    # Check argument count
-    arguments_required = command_reqs["args_req"]
-    # check if proper amount of arguments exist
-    if int(arguments_required) > len(arguments):
-        log(0, "s", f"insufficient arg count for {command}")
+    if parsed_command == "user.unmute":
+        # Attempt
+        message = mute.set_mutes(CONFIG, False, arguments)
+        await ctx.channel.send(message)
+        # Log and return
+        log(1, "s", "ran user.mute")
         return
+    # Check if muted once more, inside the context of unmuting yourself
+    print(mute.check_mute(CONFIG, ctx))
+    if mute.check_mute(CONFIG, ctx):
+        await ctx.delete()
 
     # Help
     if parsed_command == "help":
@@ -90,7 +119,7 @@ async def on_message(ctx):
     # Admin Set
     if parsed_command == "admin.make":
         # Run command
-        message = set_admin("CONFIG", True, arguments)
+        message = set_admin(CONFIG, True, arguments)
         await ctx.channel.send(message)
         # Log and return
         log(1, "s", "ran admin.make")
@@ -98,11 +127,13 @@ async def on_message(ctx):
     # Admin Remove
     if parsed_command == "admin.smite":
         # Run command
-        message = set_admin("CONFIG", False, arguments)
+        message = set_admin(CONFIG, False, arguments)
         await ctx.channel.send(message)
         # Log and return
         log(1, "s", "ran admin.smite")
         return
+
+    print("\n\n\nMiddle of the list\n\n\n")
 
     # User management
     if parsed_command == "user.kick":
@@ -127,7 +158,6 @@ async def on_message(ctx):
         log(1, "s", "ran user.unban")
         return
 
-
     # Execute commands accordingly
     if parsed_command == "coinflip":
         # Generate message and send
@@ -136,6 +166,8 @@ async def on_message(ctx):
         # Log and return
         log(1, "s", "ran coinflip")
         return
+
+    print("\n\n\nBottom of the list\n\n\n")
     
 
 # Trigger Bot
