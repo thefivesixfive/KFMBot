@@ -68,20 +68,15 @@ async def on_message(ctx):
         arguments = check_admin(CONFIG, arguments, author, required_level)
         if arguments == None:
             log(0, "s", f"insufficient perms for {command}")
-            return
-
-        # Check argument count
-        arguments_required = command_reqs["args_req"]
-        # check if proper amount of arguments exist
-        if int(arguments_required) > len(arguments):
-            log(0, "s", f"insufficient arg count for {command}")
-            return
+        else:
+            # Check argument count
+            arguments_required = command_reqs["args_req"]
+            # check if proper amount of arguments exist
+            if int(arguments_required) > len(arguments):
+                log(0, "s", f"insufficient arg count for {command}")
+                return
     # Otherwise, command not found
     else:
-        # Check if muted outside of command
-        print(mute.check_mute(CONFIG, ctx))
-        if mute.check_mute(CONFIG, ctx):
-            await ctx.delete()
         # Continue quit
         log(0, "s", f"command {parsed_command} not found in commandex")
         return
@@ -91,22 +86,13 @@ async def on_message(ctx):
     # Mute Management
     if parsed_command == "user.mute":
         # Attempt
-        message = mute.set_mutes(CONFIG, True, arguments)
-        await ctx.channel.send(message)
-        # Log and return
-        log(1, "s", "ran user.mute")
-        return
+        message = await mute.set_mutes(CONFIG, True, ctx, arguments)
+        await channel.send(message)
+    # Mute Management
     if parsed_command == "user.unmute":
         # Attempt
-        message = mute.set_mutes(CONFIG, False, arguments)
-        await ctx.channel.send(message)
-        # Log and return
-        log(1, "s", "ran user.mute")
-        return
-    # Check if muted once more, inside the context of unmuting yourself
-    print(mute.check_mute(CONFIG, ctx))
-    if mute.check_mute(CONFIG, ctx):
-        await ctx.delete()
+        message = await mute.set_mutes(CONFIG, False, ctx, arguments)
+        await channel.send(message)
 
     # Help
     if parsed_command == "help":
