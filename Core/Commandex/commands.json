@@ -31,7 +31,7 @@
       "help":"`Instantly kicks a user`"
     },
 
-    "user.ban":
+    "user.smite":
     {
       "perm_lvl":1,
       "args_req":2,
@@ -39,28 +39,12 @@
       "help":"Instantly bans a user"
     },
 
-    "user.unban":
+    "user.revive":
     {
       "perm_lvl":1,
       "args_req":1,
       "usage":"`user.unban <user_id>`",
       "help":"Removes a ban from a user"
-    },
-
-    "user.mute":
-    {
-      "perm_lvl":1,
-      "args_req":1,
-      "usage":"`user.mute @<user> duration unit reason`",
-      "help":"Mutes a user for duration.\nMinutes, hours, and days are acceptable units"
-    },
-
-    "user.unmute":
-    {
-      "perm_lvl":1,
-      "args_req":1,
-      "usage":"`user.unmute @<user>`",
-      "help":"Undoes `user.mute`"
     },
 
     "coinflip":

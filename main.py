@@ -112,14 +112,14 @@ async def on_message(ctx):
         # Send message and quit
         log(1, "s", "ran user.kick")
         return
-    if parsed_command == "user.ban":
+    if parsed_command == "user.smite":
         # Try to ban
         message = await ban.ban(kfm, ctx, arguments)
         await ctx.channel.send(message)
         # Send message and quit
         log(1, "s", "ran user.ban")
         return
-    if parsed_command == "user.unban":
+    if parsed_command == "user.revive":
         # Attempt
         message = await ban.unban(kfm, ctx, arguments)
         await ctx.channel.send(message)
