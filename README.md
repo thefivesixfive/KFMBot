@@ -1,0 +1,1 @@
+A bot that managed the Discord server "Krunker Farmer's Market" (a Discord server with the purpose of faciliating trade of Krunker's in-game cosmetics and items). The bot ran for roughly two years. I am not sure if the Discord server exists anymore but this code was surprisingly thorough and well-written so I'm publishing it now as apart of a repetroire.
